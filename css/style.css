@@ -32,6 +32,10 @@ img{
 	float: none;
 }
 
+.galleria-container{
+	background: #282828;
+}
+
 .lobster{
 	font-family: "Lobster",cursive;
 }
@@ -118,6 +122,7 @@ body:before {
 .full-width {width: 100%;}
 .half-width {width: 50%;}
 .bigfont{ font-size: 140%}
+.alegreya{ font-family: 'Alegreya Sans',sans-serif;}
 
 @media(max-width: 767px){
 	.jumbotron h1{
