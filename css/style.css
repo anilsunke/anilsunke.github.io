@@ -1,4 +1,7 @@
-html{height: 100%;}
+html{
+	height: 100%;
+}
+
 body{
 	background: #3498db;	
 	height: 100%;
@@ -109,7 +112,6 @@ body:before {
 .full-width {width: 100%;}
 .half-width {width: 50%;}
 .bigfont{ font-size: 140%}
-
 
 @media(max-width: 767px){
 	.jumbotron h1{
