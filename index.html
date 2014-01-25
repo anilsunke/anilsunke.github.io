@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Anil Sunke</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./flat-ui/css/flat-ui.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="./images/beard.png">
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		function showhome()
+		{
+			$('#home').slideDown(600);
+			$("#about").slideUp(800);
+			$("#qualifications").slideUp(800);
+			$("#skills").slideUp(800);
+		}
+		function showabout()
+		{
+			$('#home').slideUp(800);
+			$("#about").slideDown(600);
+			$("#qualifications").slideUp(800);
+			$("#skills").slideUp(800);
+		}
+		function showquals()
+		{
+			$('#home').slideUp(800);
+			$("#about").slideUp(800);
+			$("#qualifications").slideDown(600);
+			$("#skills").slideUp(800);
+		}
+		function showskills()
+		{
+			$('#home').slideUp(800);
+			$("#about").slideUp(800);
+			$("#qualifications").slideUp(800);
+			$("#skills").slideDown(600);
+		}
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="main">
+			<header>
+				<nav class="navbar navbar-default text-centered" role="navigation">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right" id="navigation">
+							<li class="lobster bigfont"><a href="#home" onclick="showhome()">Home</a></li>
+							<li class="lobster bigfont"><a href="#about" onclick="showabout()">About</a></li>
+							<li class="lobster bigfont"><a href="#qualifications" onclick="showquals()">Qualifications</a></li>
+							<li class="lobster bigfont"><a href="#skills" onclick="showskills()">Skills</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</header>
+
+			<div class="container">
+				<section id="home" class="scroll-panel">
+					<div class="jumbotron jumbotron-midnight text-centered">
+						<div>
+							<div class="row">
+								<img src="./images/beard.png" alt="logo" id="beard"/>
+								<h1 class="lobster">Anil Sunke</h1>
+							</div>
+							<p>Never say Never!</p>
+						</div>
+					</div>
+				</section>
+				<section id="about" class="scroll-panel">
+					<div class="jumbotron jumbotron-midnight text-centered">
+						<h1 class="lobster">Who I Am!</h1>
+						<p>Please check back on 1/31/2014</p>
+					</div>
+				</section>
+				<section id="qualifications" class="scroll-panel">
+					<div class="jumbotron jumbotron-midnight text-centered">
+						<h1 class="lobster">What I Do!</h1>
+						<p>Please check back on 1/31/2014</p>
+					</div>
+				</section>
+				<section id="skills" class="scroll-panel">
+					<div class="jumbotron jumbotron-midnight text-centered">
+						<h1 class="lobster">How I do it!</h1>
+						<p>Please check back on 1/31/2014</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<div id="footdiv">
+		<section class="text-centered" id="footer" class="scroll-panel">
+			<a href="https://www.facebook.com/007.anil"><img src="./images/fb.png"></a>
+			<a href="./Anil Sunke - Resume.docx" target="_blank" class="lobster bigfont">Résumé (.docx)</a>
+			<a href="./Anil Sunke - Resume.pdf" target="_blank" class="lobster bigfont">Résumé (.pdf)</a>
+			<a href="http://www.linkedin.com/in/anilsunke"><img src="./images/linkedin.png"></a>
+		</section>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#home').show();
+			$("#about").hide();
+			$("#qualifications").hide();
+			$("#skills").hide();
+		});
+	</script>
+</body>
+</html>
