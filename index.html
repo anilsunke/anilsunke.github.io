@@ -16,7 +16,7 @@
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
 	<script type="text/javascript">
-		function showhome()
+		/*function showhome()
 		{
 			$('#home').slideDown(600);
 			$("#about").slideUp(800);
@@ -56,14 +56,14 @@
 			$("#skills").slideUp(800);
 			$("#gallery").slideDown(600);
 
-		}
+		}*/
 	</script>
 </head>
 <body class="lobster">
 	<header>
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<a href="#home" onclick="showhome()" class="navbar-brand">Anil Sunke</a>
+				<a href="#home"  class="navbar-brand smoothScroll">Anil Sunke</a>
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -72,10 +72,10 @@
 				</button>
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#about" onclick="showabout()" class="bigfont">About</a></li>
-						<li><a href="#qualifications" onclick="showquals()">Qualifications</a></li>
-						<li><a href="#skills" onclick="showskills()">Skills</a></li>
-						<li><a href="#gallery" onclick="showgallery()">Photography</a></li>
+						<li><a href="#about" class="bigfont smoothScroll">About</a></li>
+						<li><a href="#qualifications"  class="smoothScroll">Qualifications</a></li>
+						<li><a href="#skills"  class="smoothScroll">Skills</a></li>
+						<li><a href="#gallery"  class="smoothScroll">Photography</a></li>
 					</ul>
 				</div>
 			</div>
@@ -122,21 +122,21 @@
                         <div class="col-lg-4">
                             <div class="panel panel-default">
                                 <div class="panel-body">
-                                    Whatever
+                                    Front-End
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="panel panel-default">
                                 <div class="panel-body">
-                                    Whatever
+                                    Back-End
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="panel panel-default">
                                 <div class="panel-body">
-                                    Whatever
+                                    Programming Languages
                                 </div>
                             </div>
                         </div>
@@ -187,8 +187,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
 	<script src="./js/galleria/plugins/flickr/galleria.flickr.min.js"></script>
-	
+	<script src="./js/smoothscroll.js"></script>
 	<script>
+	/*
 		$(document).ready(function() {
 			$('#home').show();
 			$("#about").hide();
@@ -196,6 +197,7 @@
 			$("#skills").hide();
 			$("#gallery").hide();
 		});
+*/
 	</script>
 </body>
 </html>
