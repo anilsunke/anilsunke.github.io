@@ -125,11 +125,11 @@ footer img{
 	}
 
 	.footernav li {
-		float: none;;
+		float: none;
 		display: inline;
 		text-align: center;
 	}
-
+	
 	.navbar .nav {
 		float: none;
 		text-align: center;
