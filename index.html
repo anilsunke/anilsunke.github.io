@@ -60,99 +60,106 @@
 	</script>
 </head>
 <body class="lobster">
-	<div id="wrap">
-		<div id="main">
-			<header>
-				<nav class="navbar navbar-default text-centered" role="navigation">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#"></a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right" id="navigation">
-							<li class="lobster bigfont"><a href="#home" onclick="showhome()">Home</a></li>
-							<li class="lobster bigfont"><a href="#about" onclick="showabout()">About</a></li>
-							<li class="lobster bigfont"><a href="#qualifications" onclick="showquals()">Qualifications</a></li>
-							<li class="lobster bigfont"><a href="#skills" onclick="showskills()">Skills</a></li>
-							<li class="lobster bigfont"><a href="#gallery" onclick="showgallery()">Photography</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</nav>
-			</header>
-
+	<header>
+		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<section id="home" class="scroll-panel">
-					<div class="jumbotron jumbotron-midnight text-centered">
-						<div>
-							<div class="row">
-								<h1 class="lobster">Anil Sunke</h1>
-								<br>
-								<img src="./images/beard.png" alt="logo" id="beard"/>
-							</div>
-							<br>
-							<p class="bigfont">Computer Science Graduate student</p>
-							<p class="bigfont">@</p>
-							<p class="bigfont">The Ohio State University</p>
-							<p class="bigfont">Page is still under construction. Please check back on 1/31/14 </p>
-						</div>
-					</div>
-				</section>
-				<section id="about" class="scroll-panel">
-					<div class="jumbotron jumbotron-midnight text-centered">
-						<h1 class="lobster">Who I Am!</h1>
-						<p>Please check back on 1/31/2014</p>
-					</div>
-				</section>
-				<section id="qualifications" class="scroll-panel">
-					<div class="jumbotron jumbotron-midnight text-centered">
-						<h1 class="lobster">What I Do!</h1>
-						<p>Please check back on 1/31/2014</p>
-					</div>
-				</section>
-				<section id="skills" class="scroll-panel">
-					<div class="jumbotron jumbotron-midnight text-centered">
-						<h1 class="lobster">How I do it!</h1>
-						<p>Please check back on 1/31/2014</p>
-					</div>
-				</section>
-				<section id="gallery" class="scroll-panel">
-					<div class="jumbotron jumbotron-midnight text-centered">
-						<h1 class="lobster">Through my Lens!</h1>
-						<h6 class="lobster">(Please refresh if an error is displayed)</h6>
-						<div class="galleria">
-							
-						</div>
-						<script>
-							Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
-							Galleria.run('.galleria', {
-							    flickr: 'user:anilsunke',
-							    flickrOptions: {
-							        sort: 'date-posted-asc'
-							    }
-							});
-						</script>
-					</div>
-				</section>
+				<a href="#home" onclick="showhome()" class="navbar-brand">Anil Sunke</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about" onclick="showabout()">About</a></li>
+						<li><a href="#qualifications" onclick="showquals()">Qualifications</a></li>
+						<li><a href="#skills" onclick="showskills()">Skills</a></li>
+						<li><a href="#gallery" onclick="showgallery()">Photography</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="footdiv">
-		<section class="text-centered" id="footer" class="scroll-panel">
-			<a href="https://www.facebook.com/007.anil"><img src="./images/fb.png"></a>
-			<a href="./Anil Sunke - Resume.docx" target="_blank" class="lobster bigfont">Résumé (.docx)</a>
-			<a href="./Anil Sunke - Resume.pdf" target="_blank" class="lobster bigfont">Résumé (.pdf)</a>
-			<a href="http://www.linkedin.com/in/anilsunke"><img src="./images/linkedin.png"></a>
+	</header>
+
+	<div class="container">
+		<section id="home" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<div>
+					<div class="row">
+						<h1 class="lobster">Anil Sunke</h1>
+						<br>
+						<img src="./images/beard.png" alt="logo" id="beard"/>
+					</div>
+					<br>
+					<p class="bigfont">Graduate student at The Ohio State University</p>
+					<br>
+					<p class="bigfont">Page is still under construction. Please check back on 1/31/14 </p>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster">Who I Am!</h1>
+				<p>Please check back on 1/31/2014</p>
+			</div>
+		</section>
+		<section id="qualifications" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster">What I Do!</h1>
+				<p>Please check back on 1/31/2014</p>
+			</div>
+		</section>
+		<section id="skills" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster">How I do it!</h1>
+				<p>Please check back on 1/31/2014</p>
+				<div class="row">
+					<div class="skills-left" style="width: 50%; float: left;">Hi! I am left</div>
+					<div class="skills-right" style="width: 50%; flaot: right;">Hi! I am right</div>
+					<br style="clear:both;"/>
+				</div>
+			</div>
+		</section>
+		<section id="gallery" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster">Through my Lens!</h1>
+				<h6 class="lobster">(Please refresh if an error is displayed)</h6>
+				<div class="galleria">
+					
+				</div>
+				<script>
+					Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
+					Galleria.run('.galleria', {
+					    flickr: 'user:anilsunke',
+					    flickrOptions: {
+					        sort: 'date-posted-asc'
+					    }
+					});
+				</script>
+			</div>
 		</section>
 	</div>
+	<footer>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navFooterCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navFooterCollapse">
+					<ul class="nav navbar-nav footernav">
+						<li><a href="https://www.facebook.com/007.anil" target="_blank"><img src="./images/fb.png"/></a></li>
+						<li><a href="./Anil Sunke - Resume.docx" target="_blank" class="bigfont">Resume</a></li>
+						<li><a href="./Anil Sunke - Resume.pdf" target="_blank" class="bigfont">Resume</a></li>
+						<li><a href="http://www.linkedin.com/in/anilsunke" target="_blank"><img src="./images/linkedin.png"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
