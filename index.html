@@ -114,18 +114,38 @@
 			<div class="jumbotron jumbotron-midnight text-centered">
 				<h1 class="lobster">How I do it!</h1>
 				<p>Please check back on 1/31/2014</p>
-				<div class="row">
-					<div class="skills-left" style="width: 50%; float: left;">Hi! I am left</div>
-					<div class="skills-right" style="width: 50%; flaot: right;">Hi! I am right</div>
-					<br style="clear:both;"/>
-				</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    Whatever
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    Whatever
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    Whatever
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</section>
 		<section id="gallery" class="scroll-panel">
 			<div class="jumbotron jumbotron-midnight text-centered">
 				<h1 class="lobster">Through my Lens!</h1>
 				<h6 class="lobster">(Please refresh if an error is displayed)</h6>
-				<div class="galleria">
+				<div class="galleria" style="height: 500px;">
 					
 				</div>
 				<script>
@@ -133,7 +153,6 @@
 					Galleria.run('.galleria', {
 					    flickr: 'user:anilsunke',
 					    flickrOptions: {
-					        sort: 'date-posted-asc'
 					    }
 					});
 				</script>
