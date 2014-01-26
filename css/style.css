@@ -16,7 +16,8 @@ img{
 }
 
 .galleria{ 
-	width: 100%; 
+	width: auto;
+	height: 500px; 
 	background: #ffffff;
 }
 
@@ -56,23 +57,52 @@ img{
 footer{
 	color: #ffffff;
 }
+
 footer img{
-	width: 30px;
+	
 }
+
 .footernav li {
-    width: 10%; /* or whatever width you want for items */
+    width: 10%;
     display: inline-block;
     float: none;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
+
+.btn{
+	border-radius: 0;
+}
+
 .navbar .nav {
     float: none;
     text-align: center;
 }
+
 .navbar{
 	background: #ffffff;	
 	color: #3498db;
 }
+
+.FB{
+	background-color: #4b68a0;
+	color: #ffffff;
+}
+
+.CE{
+	background-color: #000000;
+	color: #ffffff;	
+}
+
+.LI{
+	background-color: #1d86bd;
+	color: #ffffff;
+}
+
+.GH{
+	background-color: #2c353c;
+	color: #ffffff;
+}
+
 .text-centered { text-align:center; }
 .no-margin { margin:0; }
 .full-width {width: 100%;}
@@ -81,20 +111,25 @@ footer img{
 .alegreya{ font-family: 'Alegreya Sans',sans-serif;}
 
 @media(max-width: 767px){
+	
 	.jumbotron h1{
 		font-size: 31px;
 	}
+	
 	.bigfont{
 		font-size: 100%;
 	}
+
 	#footer img{
-	width: 30px;
+		width: 30px;
 	}
+
 	.footernav li {
 		float: none;;
 		display: inline;
 		text-align: center;
 	}
+
 	.navbar .nav {
 		float: none;
 		text-align: center;
