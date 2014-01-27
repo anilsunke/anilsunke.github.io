@@ -11,49 +11,6 @@ img{
 	max-width: 100%;
 }
 
-#beard{
-	max-width: 25%;
-}
-
-.galleria{ 
-	width: auto;
-	height: 500px; 
-	background: #ffffff;
-}
-
-.galleria-container{
-	background: #ffffff;
-}
-
-.lobster{
-	font-family: "Lobster",cursive;
-}
-
-#home{
-	padding-top: 100px;
-}
-
-.scroll-panel{
-	padding-top: 50px;
-}
-
-.jumbotron{
-	border-radius: 0 !important; padding: 0 !important;
-}
-
-.jumbotron-midnight{
-	color: #ffffff;
-	background: #3498db;
-	margin: 0;
-}
-
-.jumbotron-silver{
-	color: #3498db;
-	background: #ffffff;
-	margin: 0;
-	width: 100%;
-}
-
 footer{
 	color: #ffffff;
 	padding-bottom: 100px;
@@ -63,6 +20,59 @@ footer{
 
 footer img{
 	
+}
+
+.lobster{
+	font-family: "Lobster",cursive;
+}
+
+#home{
+	padding-top: 75px;
+}
+
+.heading{
+	padding-bottom: 30px; 
+}
+
+#beard{
+	max-width: 25%;
+	padding-bottom: 30px;
+}
+
+.scroll-panel{
+	padding-top: 25px;
+}
+
+.jumbotron{
+	border-radius: 0 !important; 
+	padding: 0 !important;
+}
+
+.jumbotron-midnight{
+	color: #ffffff;
+	background: #3498db;
+	margin: 0;
+}
+
+.break{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.galleria{ 
+	width: auto;
+	height: 350px; 
+	background: #000000;
+	padding-bottom: 50px;
+}
+
+.galleria-container{
+	background: #000000;
+}
+
+.well{
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .footernav li {
@@ -111,6 +121,8 @@ footer img{
 .full-width {width: 100%;}
 .half-width {width: 50%;}
 .bigfont{ font-size: 140%}
+.medfont{ font-size: 100%}
+.blackfont{color: #000000;}
 .alegreya{ font-family: 'Alegreya Sans',sans-serif;}
 
 @media(max-width: 767px){
@@ -129,7 +141,7 @@ footer img{
 
 	.footernav li {
 		float: none;
-		display: inline;
+		display: inline-table;
 		text-align: center;
 	}
 	

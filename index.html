@@ -15,56 +15,14 @@
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	<script type="text/javascript">
-		/*function showhome()
-		{
-			$('#home').slideDown(600);
-			$("#about").slideUp(800);
-			$("#qualifications").slideUp(800);
-			$("#skills").slideUp(800);
-			$("#gallery").slideUp(600);
-		}
-		function showabout()
-		{
-			$('#home').slideUp(800);
-			$("#about").slideDown(600);
-			$("#qualifications").slideUp(800);
-			$("#skills").slideUp(800);
-			$("#gallery").slideUp(600);
-		}
-		function showquals()
-		{
-			$('#home').slideUp(800);
-			$("#about").slideUp(800);
-			$("#qualifications").slideDown(600);
-			$("#skills").slideUp(800);
-			$("#gallery").slideUp(600);
-		}
-		function showskills()
-		{
-			$('#home').slideUp(800);
-			$("#about").slideUp(800);
-			$("#qualifications").slideUp(800);
-			$("#skills").slideDown(600);
-			$("#gallery").slideUp(600);
-		}
-		function showgallery()
-		{
-			$('#home').slideUp(800);
-			$("#about").slideUp(800);
-			$("#qualifications").slideUp(800);
-			$("#skills").slideUp(800);
-			$("#gallery").slideDown(600);
-
-		}*/
-	</script>
 </head>
-<body class="lobster">
+<body class="lobster" data-spy="scroll" data-target=".navbar">
 	<header>
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<a href="#home"  class="navbar-brand smoothScroll">Anil Sunke</a>
+				<a href="#home"  class="navbar-brand smoothScroll"><img src="./images/beard.png" style="width: 30px;" />Anil Sunke</a>
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -72,6 +30,7 @@
 				</button>
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" class="bigfont smoothScroll">Home</a></li>
 						<li><a href="#about" class="bigfont smoothScroll">About</a></li>
 						<li><a href="#qualifications"  class="smoothScroll">Qualifications</a></li>
 						<li><a href="#skills"  class="smoothScroll">Skills</a></li>
@@ -87,57 +46,209 @@
 			<div class="jumbotron jumbotron-midnight text-centered">
 				<div>
 					<div class="row">
-						<h1 class="lobster">Anil Sunke</h1>
-						<br>
+						<h4 class="lobster heading">Hi there! I'm
+						<span class="lobster">Anil Sunke</span></h4>
 						<img src="./images/beard.png" alt="logo" id="beard"/>
 					</div>
-					<br>
 					<p class="bigfont">Welcome to my World!</p>
-					<br>
-					<p class="bigfont">Page is still under construction. Please check back on 1/31/14 </p>
+					<p class="medfont">You can scroll down or use the navigation bar on top. You can find my social profile links in the footer.</p>
 				</div>
 			</div>
 		</section>
 		<section id="about" class="scroll-panel">
 			<div class="jumbotron jumbotron-midnight text-centered">
-				<h1 class="lobster">Who I Am!</h1>
-				<p>Hello! I'm Anil, a Computer Science graduate at the Ohio State University. </p>
+				<h1 class="lobster break">Who I Am!</h1>
+				<p class="medfont">Hello! I'm Anil, a Computer Science graduate at the Ohio State University. I'm just another guy trying to make it big in this world. We all know there are millions of people who might fit this description and might make you think, what makes Anil so different? Well, the fact that I am me makes different than anyone else. Ha! I know, I'm corny &#9786.</p>
+				<p class="medfont">Enough of that. In a nutshell I would be what everyone calls a "Software Developer". I have a wide range of programming languages under my belt and I love to create software products where I can see my work bringing joy to people's lives. I know this is not a simple task to achieve but hey, Rome was not built in a day. I can also be called a gadget freak. I just love all these small nifty devices that people create. I hope to one day create or build a gadget that will change the way humans do a particular task, whatever be it.</p>
+				<p class="medfont">To talk about my hobbies, I am an anime lover and I read manga too. In fact, cartoons have been an integral part of my life. Be it the Captain Planet's lessons about the environment or just awesome cool action in DragonBall Z. I have a passion for dancing and riding motorbikes. I have explored my artistic side and tried photography with good success. It brings me happiness and joy when I see people use photos clicked by me as their desktop background. My most favorite hobby is gaming. Although many people believe that playing games on computers and consoles are a huge waste of time, I look at it differently. In my perspective, games require a sharp thinking, attention to detail and quick reflexes. I know it might sound weird, but trust me I have played games for quite a long time.</p>
 			</div>
 		</section>
 		<section id="qualifications" class="scroll-panel">
 			<div class="jumbotron jumbotron-midnight text-centered">
-				<h1 class="lobster">What I Do!</h1>
-				<p>
-					I'm currently pursuing my graduate studies at the Ohio State University and will be graduating in May 2014.
-				</p>
-				<p>Please check back on 1/31/2014</p>
+				<h1 class="lobster break">What I Know!</h1>
+				<p class="medfont">I'm going to get all professional now. So if you're interested in my profile, please read through. If you're just browsing then skip ahead &#9786.</p>
+				<p class="medfont">To give a brief background about my educational and professional career, the first thing you would want to know is that I've had access to computers from a very young age and have always been intrigued by their workings. This naturally made me take up computer science as my field of study and my bread earner.</p>
+				<h3 class="lobster break">Education</h3>
+				<h5 class="lobster break">Ohio State University</h5>
+				<p class="medfont">As for my graduate studies, I chose to come to Ohio State University for my Master's in Computer Science from among 4 other admits. The subjects and professors here are amazing and I learnt a lot of new concepts like green computing,etc. During Summer 2013 I interned at the Ohio Supercomputer Center. They funded me the following semester until they had a policy change. I am expecting to graduate in May 2014.</p>
+				<h5 class="lobster break">Anna University</h5>
+				<p class="medfont">I did my undergrad in Computer Science at Anna University and graduated in 2011. During my 4 years of study I learnt all the computer science fundamentals and a lot of advanced topics as well. I was fortunate enough to get amazing exposure thanks to all the symposiums I have attended and won. I was the President of the Mathematics Club and it was truly a delightful exeprience working with my batchmates.</p>
+				<h3 class="lobster break">Work Experiences</h3>
+				<h5 class="lobster break">Ohio Supercomputer Center</h5>
+				<p class="medfont">My term at Ohio Supercomputer Center started on June 2013 and ended on December 2013. Although I worked there for a short span of 7 months, I learnt loads of things. My manager, Thomas Bitterman was an excellent supervisor. Not only did he allocate interesting tasks to me, he also taught me a number of concepts behind the workings of the organization which I doubt anyone will do. Although I had done web development in the past, it is my period here that inspired me the most.</p>
+				<p class="medfont">I worked on developing new websites and on enhancing existing ones. It was both a front-end as well as a back-end job and it was quite challenging. The webpages served as an interface for the end-users to run simulations on various models.</p>
+				<h5 class="lobster break">Cognizant Technology Solutions</h5>
+				<p class="medfont">I got placed in Cognizant by the time I graduated from Anna University. I started my job there in July 2011 and had an amazing run which ended in June 2012 because I wanted to pursue my master's degree. I worked as a Mainframe Developer for Cigna Healthcare's project. I was a part of the code cleanup team and also part of the data analysis team. My primary role was to identify dead code and to replace outdated code with current gen variants. I also wrote scripts to automate the process and introduced a quick solution to process instructions which had a similar pattern.</p>
+				<h6 class="break">Please read my Résumé for further information.</h6>
 			</div>
 		</section>
 		<section id="skills" class="scroll-panel">
 			<div class="jumbotron jumbotron-midnight text-centered">
-				<h1 class="lobster">How I do it!</h1>
-				<p>Please check back on 1/31/2014</p>
-                <div class="container">
+				<h1 class="lobster">My Toolkit!</h1>
+                <div class="container break blackfont">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    Front-End
-                                </div>
+                            <div class="well well-lg">
+								<h4 class="lobster">Front-End</h4>
+								HTML / HTML5
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								CSS / CSS3
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								JavaScript
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								JQuery
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								Bootstrap
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Mustache.js
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+								</div>
+								Underscore.js
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+								</div>
+								Responsive Design
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+								</div>
+								Cross Browser Polyfills
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    Back-End
-                                </div>
+                            <div class="well well-lg">
+								<h4 class="lobster">Back-End</h4>
+								PHP
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								Python
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								MySQL
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								Drupal
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+								</div>
+								SVN
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								Perl
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+								</div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    Programming Languages
-                                </div>
+                            <div class="well well-lg">
+								<h4 class="lobster">Programming Languages</h4>
+								C
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								C++
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								C#
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+								</div>
+								Java
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+								COBOL
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								JCL
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Software Packages</h4>
+								IBM Rational Asset Analyzer
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								Adobe Photoshop
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Microsoft Excel
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								Microsoft Word
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								IBM Rational Rose
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Operating Systems</h4>
+								Windows 9x, XP, 7, 8
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+								</div>
+								Linux
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Macintosh
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Computer Science Concepts</h4>
+								Data Mining
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								Network Programming
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Mainframes
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								DBMS
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
                             </div>
                         </div>
                     </div>
@@ -147,10 +258,7 @@
 		<section id="gallery" class="scroll-panel">
 			<div class="jumbotron jumbotron-midnight text-centered">
 				<h1 class="lobster">Through my Lens!</h1>
-				<h6 class="lobster">(Please refresh if an error is displayed)</h6>
-				<div class="galleria" style="height: 500px;">
-					
-				</div>
+				<div class="galleria" style="height: 350px;"></div>
 				<script>
 					Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
 					Galleria.run('.galleria', {
@@ -173,11 +281,11 @@
 				</button>
 				<div class="collapse navbar-collapse navFooterCollapse">
 					<ul class="nav navbar-nav footernav">
-						<li><button onclick="window.open('https://www.facebook.com/007.anil','_blank')" class="btn FB bigfont">Facebook</button></li>
-						<li><button onclick="window.open('https://www.codeeval.com/public/44906f40c682e69e3def4214adbffed2166af94e/','_blank')" class="btn CE bigfont">CodeEval</button></li>
-						<li><button onclick="window.open('./Anil Sunke - Resume.pdf','_blank')" class="btn btn-danger bigfont">Résumé</button></li>
-						<li><button onclick="window.open('http://www.linkedin.com/in/anilsunke','_blank')" class="btn btn-info LI bigfont">LinkedIn</button></li>
-						<li><button onclick="window.open('https://github.com/anilsunke','_blank')" class="btn GH bigfont">GitHub</button></li>
+						<li><button onclick="window.open('https://www.facebook.com/007.anil','_blank')" class="btn FB">Facebook</button></li>
+						<li><button onclick="window.open('https://www.codeeval.com/public/44906f40c682e69e3def4214adbffed2166af94e/','_blank')" class="btn CE">CodeEval</button></li>
+						<li><button onclick="window.open('./Anil Sunke - Resume.pdf','_blank')" class="btn btn-danger">Résumé</button></li>
+						<li><button onclick="window.open('http://www.linkedin.com/in/anilsunke','_blank')" class="btn btn-info LI">LinkedIn</button></li>
+						<li><button onclick="window.open('https://github.com/anilsunke','_blank')" class="btn GH">GitHub</button></li>
 					</ul>
 				</div>
 			</div>
@@ -188,16 +296,5 @@
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
 	<script src="./js/galleria/plugins/flickr/galleria.flickr.min.js"></script>
 	<script src="./js/smoothscroll.js"></script>
-	<script>
-	/*
-		$(document).ready(function() {
-			$('#home').show();
-			$("#about").hide();
-			$("#qualifications").hide();
-			$("#skills").hide();
-			$("#gallery").hide();
-		});
-*/
-	</script>
 </body>
 </html>
