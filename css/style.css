@@ -62,14 +62,14 @@ footer img{
 .galleria{ 
 	width: 50%;
 	height: 350px; 
-	background: #000000;
+	background: #2c3e50;
 	padding-bottom: 50px;
 	text-align: center;
 	margin: 0 auto 0 auto;
 }
 
 .galleria-container{
-	background: #000000;
+	background: #2c3e50;
 }
 
 .well{
@@ -136,6 +136,8 @@ footer img{
 	.bigfont{
 		font-size: 100%;
 	}
+
+	
 
 	#footer img{
 		width: 30px;
