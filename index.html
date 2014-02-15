@@ -17,6 +17,12 @@
 	<![endif]-->
 </head>
 <body class="lobster" data-spy="scroll" data-target=".navbar">
+	<div class="splash" align="center">
+		<h2 class="lobster white">Anil Sunke</h2>
+		<h4 class="lobster white">Human Being | Web Developer | Software Engineer</h4>
+		<br>
+		<p class="bigfont">Thank you for visiting my webpage.</p>
+	</div>
 	<header>
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
@@ -296,5 +302,10 @@
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
 	<script src="./js/galleria/plugins/flickr/galleria.flickr.min.js"></script>
 	<script src="./js/smoothscroll.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+		setTimeout(function(){$('.splash').slideUp(1000)}, 2000);
+	});
+	</script> 
 </body>
 </html>
